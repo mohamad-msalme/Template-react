@@ -1,6 +1,6 @@
-@use "../abstracts/mixins";
+@use "../abstract/mixins";
 @use "../abstract/functions";
-@use "../abstracts/variables";
+@use "../abstract/variables";
 
 html {
   font-size: 62.52%; // 1rem = 10px 10px/16px = 62.52%
