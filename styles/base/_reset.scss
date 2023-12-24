@@ -1,0 +1,23 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+@use "../abstracts/functions";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
