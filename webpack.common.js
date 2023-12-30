@@ -38,7 +38,6 @@ module.exports = {
       fontUrl:
         'https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap',
       meta: [
-        { 'http-equiv': 'refresh', content: '60' },
         { property: 'og:title', content: 'Open Graph Title' },
         { name: 'description', content: 'Your description here' }
       ]

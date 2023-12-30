@@ -1,13 +1,13 @@
-@use "../abstract/mixins";
-@use "../abstract/variables";
-@use "../abstract/functions";
+@use '../abstract/mixins';
+@use '../abstract/variables';
+@use '../abstract/functions';
 
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
 }
