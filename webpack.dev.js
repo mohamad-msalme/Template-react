@@ -16,7 +16,7 @@ module.exports = {
               additionalData: (content, loaderContext) => {
                 if (loaderContext.resourcePath.includes('src')) {
                   return (
-                    `@use '~/styles/abstracts/variables'; @use '~/styles/abstracts/mixins'; @use '~/styles/abstracts/functions';` +
+                    `@use '~/styles/abstract/variables'; @use '~/styles/abstract/mixins'; @use '~/styles/abstract/functions';` +
                     content
                   )
                 }
